@@ -22,38 +22,55 @@ div {
 }
 
 @media (min-width: 700px) {
-.nav-container {
-  flex-grow: 2;
-  margin: 2em;
-}
+  .nav-container {
+    flex-grow: 2;
+    margin: 2em;
+  }
 
-.bio-container {
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  flex-direction: row;
-  margin: 2rem;
-}
+  .bio-container {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2rem;
+  }
 
-.bio-block {
-  width: 500px;
-  margin: 1.5rem;
-}
+  .bio-block {
+    width: 500px;
+    margin: 1.5rem;
+  }
 
-.contact-container {
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  flex-direction: row;
-  margin: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+  .example-container {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 
-.footer-container{
-  display: flex;
-  flex-direction: column;
-}
+  .example-block {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    width: 350px;
+    margin: 2.5rem;
+  }
+
+  .contact-container {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 700px) {
@@ -115,10 +132,23 @@ div {
     margin: 0.5rem;
   }
 
+  .example-container {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    margin: 0.5rem;
+  }
+
+  .example-block {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
   .contact-container {
     margin: 1.5rem;
   }
 }
 /* Resource: IAT339 Week 3 Coding Tutorial
-             IAT339 Week 3 Lab Assignment
-             https://jonitrythall.com/flexbox-cheatsheet */
+IAT339 Week 3 Lab Assignment
+https://jonitrythall.com/flexbox-cheatsheet */
