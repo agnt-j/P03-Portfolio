@@ -146,6 +146,9 @@ div {
   }
 
   .contact-container {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
     margin: 1.5rem;
   }
 }
