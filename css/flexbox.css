@@ -82,7 +82,7 @@ div {
     margin: 1rem;
   }
 
-  .comic-block {
+  .large-image-block {
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
@@ -153,62 +153,34 @@ div {
     font-size: 1em;
   }
 
+  .example-block .process-container .image-block .comic-block{
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
+
   .bio-container {
     margin: 1rem;
   }
 
-  /* only applies to the bio container */
   .bio-container p {
     text-align: left;
   }
-  /* only applies to the bio container */
 
   .bio-block {
     margin: 0.5rem;
   }
 
-  .example-container {
+  .example-container .process-block {
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     margin: 0.5rem;
-  }
-
-  .example-block {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-  }
-
-  .process-container {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
   }
 
   .process-container h2 {
     font-size: 1.75em;
-  }
-
-  .process-block {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-    margin: 0.5rem;
-  }
-
-  .image-block {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-  }
-
-  .comic-block {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .contact-container {
