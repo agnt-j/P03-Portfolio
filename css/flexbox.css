@@ -92,6 +92,13 @@ div {
     margin-bottom: 0;
   }
 
+  .poster-block {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    height: 600px;
+  }
+
   .contact-container {
     -webkit-justify-content: center;
     -ms-justify-content: center;
