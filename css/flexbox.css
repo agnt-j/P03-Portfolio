@@ -109,6 +109,12 @@ div {
 }
 
 @media (max-width: 700px) {
+  div {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
   form {
     justify-content: flex-start;
     font-size: 1em;
@@ -125,6 +131,7 @@ div {
   }
 
   h3 {
+    margin: 0;
     font-size: 1.5em;
   }
 
@@ -153,40 +160,35 @@ div {
     font-size: 1em;
   }
 
-  .example-block .process-container .image-block .comic-block{
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-  }
-
-
-  .bio-container {
+  .bio-container .example-container {
     margin: 1rem;
   }
 
-  .bio-container p {
-    text-align: left;
+  .bio-block  {
+    margin: 0;
   }
 
-  .bio-block {
-    margin: 0.5rem;
-  }
-
-  .example-container .process-block {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-    margin: 0.5rem;
+  .process-container {
+    margin: 1rem;
   }
 
   .process-container h2 {
     font-size: 1.75em;
   }
 
+  .process-block {
+    margin: 0.5rem;
+  }
+
+  .image-block {
+    margin: 0;
+  }
+
+  .large-image-block {
+    margin: 0;
+  }
+
   .contact-container {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
     margin: 1.5rem;
   }
 }
