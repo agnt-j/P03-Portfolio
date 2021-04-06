@@ -1,0 +1,224 @@
+$black: #1B1B1B;
+$darkblue: #1D2951;
+$lightblue: #4682B4;
+$whiteblue: #F0F8FF;
+$offwhite: #FEFEFA;
+$white: #FFF;
+
+/* Main Elements */
+body {
+  font-family:'Nunito Sans', sans-serif;
+  padding: 1rem;
+  background-color: $offwhite;
+}
+
+header {
+  margin: 2rem;
+}
+
+section {
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+/* For Footer */
+footer{
+  background-color: $offwhite;
+  margin-top: 5rem;
+}
+
+.footer-nav {
+  font-size: 13px;
+  justify-content: center;
+}
+
+.footer-text{
+  flex-direction: row;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: $black;
+}
+
+/* For Navigation */
+nav {
+  margin: 1.5rem;
+  text-align: center;
+
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+}
+
+.button-nav {
+  display: inline-block;
+  padding: .5rem;
+  color: $black;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.5s;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: $darkblue;
+}
+/* For Navigation */
+
+code {
+  background-color: $whiteblue;
+  padding: 0.5rem;
+  display: block;
+}
+
+/*For Image*/
+img {
+  padding-bottom: 0.5rem;
+}
+
+.image-link {
+  display: inline-block;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.image-link:hover, .image-link:focus {
+  background-color: $darkblue;
+}
+
+/*For Inputs and Labels*/
+input {
+  border-radius: 2px;
+  font-family:'Nunito', sans-serif;
+  margin: 0;
+}
+
+label {
+  border-radius: 10px;
+  font-family:'Nunito Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.input-box {
+  padding: 30px 30px 0 30px;
+
+  label {
+    color: $black;
+    display: block;
+  }
+
+  input {
+    background: $offwhite;
+    border: 1px solid $darkblue;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: $black;
+    padding: 6px;
+    font-size: 1em;
+    margin-top: 6px;
+    width: 100%;
+  }
+}
+
+textarea {
+  border-radius: 2px;
+  font-family:'Nunito', sans-serif;
+  background: $offwhite;
+  border: 1px solid $darkblue;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: $black;
+  padding: 6px;
+  font-size: 1em;
+  margin-top: 6px;
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+}
+
+/* For Forms and Fieldsets */
+form{
+  border: 1px solid $darkblue;
+  border-radius: 10px;
+  font-family:'Nunito', sans-serif;
+  font-size: 1.5em;
+  overflow: hidden;
+  width: 70vw;
+  background-color: $white;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*For Select Buttons*/
+.button-select {
+  display: inline-block;
+  padding: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.button-select .btn {
+  background: linear-gradient($darkblue, $lightblue);
+  border: 0;
+  color: #F5F5F0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  float: left;
+  padding: 10px 25px;
+}
+
+/*For Text*/
+h1 {
+  font-size: 4em;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family:'Nunito', sans-serif;
+  margin-top: 0;
+  max-width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.text-link {
+  color: $black;
+  transition-property: color;
+  transition-duration: 0.5s;
+
+}
+
+.text-link:hover, .text-link:focus {
+  color: $lightblue;
+}
+
+/* Resource for dropdown: https://www.w3schools.com/howto/howto_css_dropdown.asp */
+/* Resource for form, input, and label:https://learn.shayhowe.com/html-css/building-forms/ */

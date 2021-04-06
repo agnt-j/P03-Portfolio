@@ -1,22 +1,16 @@
 /* For Flexbox Containers and Media Queries */
-
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
 div {
-  display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-
   -webkit-flex-wrap: wrap;
   -ms-flez-wrap: wrap;
-  flex-wrap:wrap;
-
-  -webkit-justify-content: flex-start;
+  flex-wrap: wrap;
   -ms-justify-content: flex-start;
   justify-content: flex-start;
-
   border: 0.5rem;
   margin: 1rem;
 }
@@ -28,7 +22,6 @@ div {
   }
 
   .bio-container {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     flex-direction: row;
@@ -41,7 +34,6 @@ div {
   }
 
   .example-container {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     flex-direction: row;
@@ -50,7 +42,6 @@ div {
   }
 
   .example-block {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     width: 350px;
@@ -58,7 +49,6 @@ div {
   }
 
   .process-container {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     flex-direction: row;
@@ -67,7 +57,6 @@ div {
   }
 
   .process-block {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     width: 500px;
@@ -75,7 +64,6 @@ div {
   }
 
   .image-block {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     height: 400px;
@@ -83,7 +71,6 @@ div {
   }
 
   .large-image-block {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     width: 600px;
@@ -93,14 +80,12 @@ div {
   }
 
   .poster-block {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     height: 600px;
   }
 
   .contact-container {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
     flex-direction: row;
@@ -109,15 +94,13 @@ div {
     margin-bottom: 2rem;
   }
 
-  .footer-container{
+  .footer-container {
     display: flex;
     flex-direction: column;
   }
 }
-
 @media (max-width: 700px) {
   div {
-    -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
   }
@@ -159,7 +142,7 @@ div {
     padding: 0.5rem;
   }
 
-  footer{
+  footer {
     margin-top: 2rem;
   }
 
@@ -171,14 +154,13 @@ div {
     margin: 1rem;
   }
 
-  .bio-block  {
+  .bio-block {
     margin: 0;
   }
 
   .process-container {
     margin: 1rem;
   }
-
   .process-container h2 {
     font-size: 1.75em;
   }

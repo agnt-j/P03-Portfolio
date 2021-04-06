@@ -1,8 +1,8 @@
 /* Main Elements */
 body {
-  font-family:'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #FEFEFA;
 }
 
 header {
@@ -15,8 +15,8 @@ section {
 }
 
 /* For Footer */
-footer{
-  background-color: #fff;
+footer {
+  background-color: #FEFEFA;
   margin-top: 5rem;
 }
 
@@ -25,7 +25,7 @@ footer{
   justify-content: center;
 }
 
-.footer-text{
+.footer-text {
   flex-direction: row;
   justify-content: center;
   font-size: 13px;
@@ -37,21 +37,19 @@ footer{
   border-top-style: solid;
   border-top-color: #1B1B1B;
 }
-/* For Footer */
 
 /* For Navigation */
 nav {
   margin: 1.5rem;
   text-align: center;
 }
-
 nav a:hover, nav a:focus {
   text-decoration: none;
 }
 
 .button-nav {
   display: inline-block;
-  padding: .5rem;
+  padding: 0.5rem;
   color: #1B1B1B;
   text-decoration: none;
   transition-property: color;
@@ -63,8 +61,8 @@ nav a:hover, nav a:focus {
 .button-nav:hover, .button-nav:focus {
   color: #1D2951;
 }
-/* For Navigation */
 
+/* For Navigation */
 code {
   background-color: #F0F8FF;
   padding: 0.5rem;
@@ -85,18 +83,17 @@ img {
 .image-link:hover, .image-link:focus {
   background-color: #1D2951;
 }
-/*For Image*/
 
 /*For Inputs and Labels*/
 input {
   border-radius: 2px;
-  font-family:'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0;
 }
 
 label {
   border-radius: 10px;
-  font-family:'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
   margin: 0;
 }
@@ -104,16 +101,14 @@ label {
 .input-box {
   padding: 30px 30px 0 30px;
 }
-
 .input-box label {
   color: #1B1B1B;
   display: block;
 }
-
 .input-box input {
-  background: #fff;
+  background: #FEFEFA;
   border: 1px solid #1D2951;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #1B1B1B;
   padding: 6px;
   font-size: 1em;
@@ -123,10 +118,10 @@ label {
 
 textarea {
   border-radius: 2px;
-  font-family:'Nunito', sans-serif;
-  background: #fff;
+  font-family: "Nunito", sans-serif;
+  background: #FEFEFA;
   border: 1px solid #1D2951;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #1B1B1B;
   padding: 6px;
   font-size: 1em;
@@ -135,17 +130,16 @@ textarea {
   height: 200px;
   resize: vertical;
 }
-/*For Inputs and Labels*/
 
 /* For Forms and Fieldsets */
-form{
+form {
   border: 1px solid #1D2951;
   border-radius: 10px;
-  font-family:'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5em;
   overflow: hidden;
   width: 70vw;
-  background-color: white;
+  background-color: #FFF;
 }
 
 fieldset {
@@ -153,7 +147,6 @@ fieldset {
   margin: 0;
   padding: 0;
 }
-/* For Forms and Fieldsets */
 
 /*For Select Buttons*/
 .button-select {
@@ -174,7 +167,6 @@ fieldset {
   float: left;
   padding: 10px 25px;
 }
-/*For Select Buttons*/
 
 /*For Text*/
 h1 {
@@ -200,7 +192,7 @@ h4 {
 }
 
 p {
-  font-family:'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-top: 0;
   max-width: 100%;
   font-size: 1.5em;
@@ -211,13 +203,11 @@ p {
   color: #1B1B1B;
   transition-property: color;
   transition-duration: 0.5s;
-
 }
 
 .text-link:hover, .text-link:focus {
   color: #4682B4;
 }
-/*For Text*/
 
 /* Resource for dropdown: https://www.w3schools.com/howto/howto_css_dropdown.asp */
 /* Resource for form, input, and label:https://learn.shayhowe.com/html-css/building-forms/ */
